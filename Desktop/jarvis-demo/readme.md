@@ -39,7 +39,7 @@ Sesli komut: Android klavye mikrofonu ile
 Yazılı komut: Termux terminal
 Sesli yanıt: eSpeak TTS (Android 6'da sınırlı destek)
 
-'''
+"""
 Kullanici (ses/klavye)
        |
 Komut Isleme (keyword matching)
@@ -60,7 +60,7 @@ Komut Isleme (keyword matching)
              |-- gemini-2.5-flash API
        |
 Sesli/Yazili Yanit (eSpeak TTS + terminal)
-'''
+"""
 
 🛠️ Kurulum
 1. Termux Kur
