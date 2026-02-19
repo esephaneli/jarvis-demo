@@ -1,4 +1,6 @@
+'''
 🤖 J.A.R.V.I.S — DEMO
+
 
 Çekmecede unutulmuş 2015 model bir telefonu kişisel yapay zeka asistanına dönüştüren proje.
 
@@ -39,7 +41,7 @@ Sesli komut: Android klavye mikrofonu ile
 Yazılı komut: Termux terminal
 Sesli yanıt: eSpeak TTS (Android 6'da sınırlı destek)
 
-"""
+
 Kullanici (ses/klavye)
        |
 Komut Isleme (keyword matching)
@@ -60,7 +62,7 @@ Komut Isleme (keyword matching)
              |-- gemini-2.5-flash API
        |
 Sesli/Yazili Yanit (eSpeak TTS + terminal)
-"""
+
 
 🛠️ Kurulum
 1. Termux Kur
@@ -100,3 +102,4 @@ Gemini API: İnternet bağlantısı gerektirir. Çevrimdışıyken sadece kural 
 
 📄 Lisans
 Bu proje açık kaynaklıdır. Dilediğiniz gibi kullanabilir ve geliştirebilirsiniz.
+'''
