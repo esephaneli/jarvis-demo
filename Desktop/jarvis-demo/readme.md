@@ -41,10 +41,10 @@ Sesli yanıt: eSpeak TTS (Android 6'da sınırlı destek)
 
 
 🏗️ Mimari
-Kullanıcı (ses/klavye)
+Kullanıcı (ses/klavye) 
       │
       ▼
-Komut İşleme (keyword matching)
+Komut İşleme (keyword matching) 
       │
       ├── Telefon Kontrolü (root komutları)
       │   ├── Fener ──────── /sys/class/leds/
@@ -53,12 +53,12 @@ Komut İşleme (keyword matching)
       │   ├── Parlaklık/Ses─ settings put
       │   └── Pil/WiFi ──── cat / dumpsys
       │
-      ├── Yerel Komutlar
+      ├── Yerel Komutlar 
       │   ├── Saat/Tarih ─── datetime
       │   ├── Hava Durumu ── wttr.in API
       │   └── Not Al/Oku ─── dosya sistemi
       │
-      └── Gemini AI (fallback)
+      └── Gemini AI (fallback) 
           └── gemini-2.5-flash API
       │
       ▼
