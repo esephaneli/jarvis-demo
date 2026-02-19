@@ -40,29 +40,27 @@ Yazılı komut: Termux terminal
 Sesli yanıt: eSpeak TTS (Android 6'da sınırlı destek)
 
 
-🏗️ Mimari
-Kullanıcı (ses/klavye) 
-      │
-      ▼
-Komut İşleme (keyword matching) 
-      │
-      ├── Telefon Kontrolü (root komutları)
-      │   ├── Fener ──────── /sys/class/leds/
-      │   ├── Arama/SMS ──── am start intent
-      │   ├── Uygulama ───── monkey -p paket
-      │   ├── Parlaklık/Ses─ settings put
-      │   └── Pil/WiFi ──── cat / dumpsys
-      │
-      ├── Yerel Komutlar 
-      │   ├── Saat/Tarih ─── datetime
-      │   ├── Hava Durumu ── wttr.in API
-      │   └── Not Al/Oku ─── dosya sistemi
-      │
-      └── Gemini AI (fallback) 
-          └── gemini-2.5-flash API
-      │
-      ▼
-Sesli/Yazılı Yanıt (eSpeak TTS + terminal)
+Kullanici (ses/klavye)
+       |
+Komut Isleme (keyword matching)
+       |
+       |-- Telefon Kontrolu (root)
+       |     |-- Fener: /sys/class/leds/
+       |     |-- Arama/SMS: am start intent
+       |     |-- Uygulama: monkey -p paket
+       |     |-- Parlaklik/Ses: settings put
+       |     |-- Pil/WiFi: cat / dumpsys
+       |
+       |-- Yerel Komutlar
+       |     |-- Saat/Tarih: datetime
+       |     |-- Hava Durumu: wttr.in API
+       |     |-- Not Al/Oku: dosya sistemi
+       |
+       |-- Gemini AI (fallback)
+             |-- gemini-2.5-flash API
+       |
+Sesli/Yazili Yanit (eSpeak TTS + terminal)
+
 
 🛠️ Kurulum
 1. Termux Kur
@@ -79,7 +77,7 @@ bashtermux-setup-storage
 https://aistudio.google.com/app/apikey
 Ücretsiz. Kodu aç, GEMINI_API_KEY satırına yapıştır.
 5. Çalıştır
-bashpython jarvis.py
+bash python jarvis.py
 
 🔧 Teknik Detaylar
 
